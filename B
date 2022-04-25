@@ -30,7 +30,7 @@ def convert(s):
 
 def main():
     hexString = input("Enter a number in hex: ')
-    print("The number in decimal is", convert(hexString))
+    print('The number in decimal is", convert(hexString))
 
 
 #Allow script to be run directly:
