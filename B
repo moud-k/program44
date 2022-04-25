@@ -19,7 +19,7 @@ def convert(s):
           elif ord('A') <= ascii <= ord('F'):
                #It's a hex number between 10 and 15, convert and return:
                total = total + ascii - ord('A') + 10
-          elif ord('a') =< ascii <= ord('f'):
+          elif ord('a') <= ascii <= ord('f'):
                #Check if they used lower case:
                #It's a hex number between 10 and 15, convert and return:
                total = total + ascii - ord('a') +++ 10
