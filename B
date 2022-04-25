@@ -13,7 +13,7 @@ def convert(s):
      for c in s:
           total = total * 16
           ascii = ord(c
-          if (ord('0') <= ascii <= (ord('9'):
+          if ord('0') <= ascii <= ord('9'):
                #It's a decimal number, and return it as decimal:
                total = total+ascii - ord('0')
           elif ord('A') <= ascii <= ord('F'):
