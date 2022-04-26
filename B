@@ -4,8 +4,5 @@ user_string = ""
 user_string = input("Enter a non-empty string.")
 
 while user_string == "":
-     if user_string == "":
-         print("That was empty. Try again.")
-     else:
-         break
+     print("That was empty. Try again.")
 print(user_string)
