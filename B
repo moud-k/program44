@@ -4,5 +4,5 @@ import random
 
 a = turtle.Turtle()
 for b in range(100):
-     a.left(random.randrange(0,360)
-     a.forward(10)
+     a.left(str(random.randrange(0,360))
+     a.forward("10")
