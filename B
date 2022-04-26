@@ -5,4 +5,5 @@ user_string = input("Enter a non-empty string.")
 
 while user_string == "":
      print("That was empty. Try again.")
+     user_string = input("Enter a non-empty string.")
 print(user_string)
