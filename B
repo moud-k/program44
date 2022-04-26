@@ -1,8 +1,10 @@
 #Name: Mahmoud Kourani
 
 user_string = ""
-while user_string = "":
+while user_string == "":
      user_string = input("Enter a non-empty string.")
-     print("That was empty. Try again.")
-     return user_string
-print(user_string)
+     if user_string == "":
+         print("That was empty. Try again.")
+     else:
+         break
+         print(user_string)
