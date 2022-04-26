@@ -6,5 +6,5 @@ wn = turtle.Screen()
 a = turtle.Turtle()
 for b in range(100):
      c = random.randrange(0,360)
-     a.left(str(c))
-     a.forward("10")
+     a.left(c)
+     a.forward(10)
