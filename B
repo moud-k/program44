@@ -2,6 +2,7 @@
 import turtle
 import random
 
+wn = turtle.Screen()
 a = turtle.Turtle()
 for b in range(100):
      c = random.randrange(0,360)
