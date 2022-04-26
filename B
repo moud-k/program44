@@ -1,10 +1,8 @@
 #Name: Mahmoud Kourani
-import turtle
-import random
 
-wn = turtle.Screen()
-a = turtle.Turtle()
-for b in range(100):
-     c = random.randrange(0,360)
-     a.left(c)
-     a.forward(10)
+user_string = ""
+while user_string = "":
+     user_string = input("Enter a non-empty string.")
+     print("That was empty. Try again.")
+     return user_string
+print(user_string)
